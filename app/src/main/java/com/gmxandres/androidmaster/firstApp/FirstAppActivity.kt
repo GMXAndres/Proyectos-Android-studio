@@ -17,15 +17,16 @@ class FirstAppActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_first_app)
         //editado
-        val btnPulsame=findViewById<AppCompatButton>(R.id.btnPulsame)
+        val btnPulsame = findViewById<AppCompatButton>(R.id.btnPulsame)
         val etname = findViewById<AppCompatEditText>(R.id.etName)
-            btnPulsame.setOnClickListener {
-                val name=etname.text.toString()
-                if(name.isNotEmpty()){
+        btnPulsame.setOnClickListener {
+            val name = etname.text.toString()
+            if (name.isNotEmpty()) {
                 val intent = Intent(this, ResultActivity::class.java)
-                    intent.putExtra("Extra_Name",name)
-                    startActivity(intent)
-            } }
+                intent.putExtra("Extra_Name", name)
+                startActivity(intent)
+            }
+        }
 
 
 

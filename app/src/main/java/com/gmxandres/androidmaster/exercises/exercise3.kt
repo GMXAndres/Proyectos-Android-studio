@@ -9,7 +9,7 @@ Sale - Up to 20% discount on Google Chromecast! Hurry up!
  */
 
 fun main() {
-    var discountPercentage: Int = 0
+    var discountPercentage = 0
     var offer: String = ""
     val item = "Google Chromecast"
     discountPercentage = 20

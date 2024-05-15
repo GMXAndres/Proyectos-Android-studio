@@ -6,7 +6,7 @@ fun main(){
 }
 
 fun mutableList() {
-    var weekDays:MutableList<String> = mutableListOf("Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo")
+    val weekDays:MutableList<String> = mutableListOf("Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domingo")
     println(weekDays)
     weekDays.add("LoL")//añade al final de la lista
     println(weekDays)

@@ -22,7 +22,7 @@ fun showMyAge(currentAge: Int=18) {
     println("tengo $currentAge años")
 }
 fun add(num1: Int,num2: Int){
-    var suma=num1+num2
+    val suma=num1+num2
     println("La suma da: $suma")
 }
 fun resta(num1:Int,num2:Int):Int{
